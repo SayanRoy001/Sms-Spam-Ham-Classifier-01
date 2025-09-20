@@ -332,8 +332,11 @@ def main():
                 
                 # Progress bars for visual representation
                 st.markdown("#### Risk Assessment")
-                st.progress(spam_prob, text=f"Spam Risk: {spam_prob:.1%}")
-                st.progress(safe_prob, text=f"Legitimate Score: {safe_prob:.1%}")
+                # Some Streamlit versions require int 0-100 (not float/np.float32). Cast for compatibility.
+                spam_pct = int(round(float(spam_prob) * 100))
+                safe_pct = int(round(float(safe_prob) * 100))
+                st.progress(spam_pct, text=f"Spam Risk: {spam_prob:.1%}")
+                st.progress(safe_pct, text=f"Legitimate Score: {safe_prob:.1%}")
                 
             else:
                 st.error("⚠️ Please enter an SMS message to analyze.")
@@ -341,7 +344,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Sidebar with enhanced professional content
+# Sidebar 
 with st.sidebar:
     st.markdown("### 🛡️ SMS Security Suite")
     
