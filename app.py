@@ -372,18 +372,23 @@ with st.sidebar:
     
     # Model Information
     st.markdown("### 📋 Model Information")
-    st.info("**Algorithm:** Deep Neural Network\n**Accuracy:** 95%+\n**Training Data:** 5,000+ SMS samples")
+    st.info(
+        """**Algorithm:** Deep Neural Network
+**Accuracy:** 95%+
+**Training Data:** 5,000+ SMS samples
+**Dataset Source:** Kaggle — SMS Spam Collection"""
+    )
     
     # Security Tips section
     st.markdown("""
     <div class="feature-card">
         <h4>💡 Security Tips</h4>
         <ul>
-            <li>� Never click suspicious links</li>
+            <li>🚫 Never click suspicious links</li>
             <li>🔐 Don't share personal information</li>
             <li>✅ Verify sender identity</li>
-            <li>� Report spam messages</li>
-            <li>�️ Use two-factor authentication</li>
+            <li>📣 Report spam messages</li>
+            <li>🛡️ Use two-factor authentication</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
