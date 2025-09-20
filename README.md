@@ -2,7 +2,7 @@
 
 AI-powered SMS spam/ham detector with a modern Streamlit UI and a lightweight TensorFlow model.
 
-> Live Demo: update this after deploy (example) → https://spam-ham-classifier-01-sayanroy001.streamlit.app
+> Live Demo: → https://spam-ham-classifier-001.streamlit.app/
 >
 > Source: https://github.com/SayanRoy001/Spam-Ham-Classifier-01
 
@@ -62,5 +62,3 @@ Spam_SMS.csv             # Dataset (if needed locally)
 - Trained on the Kaggle “SMS Spam Collection” dataset.
   - https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset (or equivalent SMS spam dataset on Kaggle)
 
-## License
-- If you add a license, reference it here (e.g., MIT). Otherwise, all rights reserved.
