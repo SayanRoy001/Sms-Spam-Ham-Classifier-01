@@ -2,6 +2,8 @@
 
 > *Because nobody likes waking up to "You've won a lottery!" texts.*
 
+> **🚀 Live Demo:** [Launch App](https://your-app-url.com)
+
 ## 👋 Overview
 
 Welcome to **SpamGuard AI**, a smart application designed to filter out the noise from your digital life. This project uses Deep Learning to analyze SMS messages in real-time and determine whether they are legitimate conversations ("Ham") or annoying spam.
