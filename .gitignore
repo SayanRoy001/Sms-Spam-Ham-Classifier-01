@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+__pycache__/
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+
+# Large data files (optional, uncomment if you don't want to push these)
+# model.h5
+# tokenizer.pkl
+# Spam_SMS.csv
