@@ -2,7 +2,7 @@
 
 > *Because nobody likes waking up to "You've won a lottery!" texts.*
 
-> **🚀 Live Demo:** [Launch App](https://your-app-url.com)
+> **🚀 Live Demo:** [Launch App](sms-spam-classifier-lilac.vercel.app)
 
 ## 👋 Overview
 
